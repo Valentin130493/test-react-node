@@ -12,8 +12,8 @@ import {handleValidationErrors, checkAuth} from "./utils/index.js";
 
 
 const PORT = 4444
-export const SECRET_KEY = 'secret key'
-const API_URL = "mongodb+srv://admin:12345@cluster0.tjfokrc.mongodb.net/blog?retryWrites=true&w=majority"
+export const SECRET_KEY = ''
+const API_URL = ""
 
 mongoose.connect(`${API_URL}`).then(() => {
     console.log('database is connected')
